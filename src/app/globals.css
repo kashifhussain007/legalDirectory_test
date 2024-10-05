@@ -1,0 +1,525 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------KAShif CSS---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+:root{
+  --primary-color:#007AFF;
+  --secondary-color:#FF8500;
+  --tertiary-color:#101828;
+
+  --primary-font:'inter',sans-serif;
+  --font-regular: 400;
+  --font-semibold: 600;
+}
+*{
+   margin: 0;
+   padding: 0;
+  font-family: var(--primary-font);
+}
+p{
+  margin: 0 !important;
+}
+h1,h2,h3,h4,h5,h6 ,p, div ,span{
+  font-family: var(--primary-font);
+
+}
+span{
+  color:#007AFF;
+}
+body {
+  font-family: var(--primary-font);
+}
+.pr-0
+{
+  padding-right: 0;
+}
+.pl-0
+{
+  padding-left: 0px !important;
+}
+ul{
+  margin: 0;
+  padding:0;
+}
+
+/* -------------------Header Start----------------- */
+.header_box{
+  position:relative;
+   /* width: 1440px; */
+   height: 76px ;
+}
+.header_content_box{
+  width: 1277px;
+  height: 42px;
+  position: relative;
+  padding: 17px 83px;    
+    /* top: 17px;          */
+}
+.inner_stroke {
+  /* font-size: 100px; */
+  color: #000000; 
+  text-shadow: 
+      -1px -1px 0 #ffffff,
+      1px -1px 0 #ffffff, 
+      -1px 1px 0 #ffffff, 
+      1px 1px 0 #ffffff;
+}
+.menu_list ul {
+  margin: 0 !important;
+
+}
+.auth_details ul{
+  margin: 0 !important;
+}
+.menu_list ul li {
+  list-style-type: none;
+  padding:0 10px;
+  display: inline;
+  font-size:16px;
+  font-weight: bold;
+  cursor:pointer;
+}
+.auth_details ul li {
+  list-style-type: none;
+  padding:0 5px;
+  display: inline;
+}
+.logo_design{
+  font-size:30px;
+  font-weight: bold;
+  color:var(--secondary-color);
+}
+.logo_left_part{
+  color:var(--secondary-color);
+}
+.logo_right_part{
+  color:var(--primary-color);
+}
+.auth_seprator{
+  color:#D9D9D9;
+}
+.login_typo, .signup_typo{
+  font-size:18px;
+  font-weight: bold;
+  color:var(--secondary-color);
+  cursor:pointer;
+}
+.signup_btn{
+  width: 112px;
+  height: 42px;
+  border: none;
+  border-radius: 21px;
+  background-color: #007AFF;
+  color:#FFFFFF
+}
+.dropdown_positioning{
+  padding-left:4px;
+}
+.active_menu_clr{
+  color:var(--primary-color);
+}
+.menu_list ul li a ,.auth_details ul li a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+
+/* ---------------------Header End--------------------- */
+
+/* ---------------------Search Engine start----------------- */
+.searchEngine_main{
+  background-image: url('/assets/HomePage/bg.png');
+  background-repeat: no-repeat;
+  height: 424px;
+  /* width: 1440px; */
+}
+.search_container{
+  width: 959px;
+  height: 288px;
+  display: flex;
+  align-items: center;
+  padding-left: 83px;
+}
+.searchEngine_heading{
+  color:#ffffff;
+  font-size:60px;
+  font-weight: 3  00;
+  line-height:1.2;
+}
+.searchEngine_inputs{
+  /* margin-top:10px;   */
+  height: 108px;
+  background-image: URL('/assets/HomePage/Rectangle 1.png');
+  margin-left: 83px;
+  padding: 36px;
+  position: relative;
+
+}
+.location_container{
+  width: 42%; 
+  margin-left:5px;
+
+}
+.locaton_input{
+  width: 100%;
+  padding: 8px 8px 8px 8px;
+  border:none;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+.gps_settings{
+  position: absolute;
+  right:60%;
+  top:50%;
+  transform:translateY(-49%);
+}
+.user_settings{
+  position: absolute;
+  right:23%;
+  top:50%;
+  transform:translateY(-49%);
+}
+
+.locaton_input::placeholder{
+    font-size:14px;
+    color:#101828;
+    font-family: var(--primary-font);
+}
+.btn_typography{
+  padding: 8px 8px 8px 8px;
+  width: 109px;
+  margin-left:5px;
+  background-color:var(--secondary-color) !important;
+  border: none !important;
+  height: 40px;
+}
+/* ---------------------Search Engine end----------------- */
+
+
+/* -------------------Services Start--------------------------- */
+.services_main,.ourMoto_main{
+  margin-top:50px;
+  padding:20px 60px;
+}
+.askQuestion_block{
+  width: 286px;
+  /* height: 342px; */
+  /* margin:5px  0px; */
+}
+.services_heading , .attornyReviewHeading{
+  font-size: 24px;
+  font-weight: 600;
+  padding:12px;
+  color:#101828;
+}
+.services_content{
+  color:#101828;
+  font-size: 16px;
+  padding:0px 12px 12px 12px;
+}
+.read_more_btn{
+  /* width: 130px; */
+  /* height: 28px; */
+  color:#A2A2A2;
+  font-size:18px;
+  font-weight:600;
+  padding:0px 12px 12px 12px;
+ cursor:pointer;
+}
+.readMore_icon{
+ size:24px !important;
+ margin-left:8px;
+ margin-top:2px;
+
+}
+.read_more_btn:hover{
+  color:var(--secondary-color);
+}
+.services_shadow_effect{
+  border-radius: 0px 0px 24px 24px;
+  box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.12);
+}
+/* ----------------------Services End --------------------------- */
+
+/* ------------------our Moto ---------------------------------------- */
+.motoHeading{
+  padding: 0px 80px;
+  width: 1223px;
+  /* height: 113px; */
+  font-size:42px;
+  font-weight: 600;
+  text-align: center;
+  color: #101828;
+}
+.moto_content{
+
+  text-align: center;
+  color: #101828;
+  font-size:21px;
+  font-weight: 400;
+}
+
+
+/* ------------------our Moto ---------------------------------------- */
+
+/* -----------------Attorny Services and info  Start----------------------------- */
+.atternyReview_main ,.atternyInfo_main{
+  margin-top:50px;
+  padding:20px 60px;
+  border-radius: 14px;
+}
+.box_shadow{
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.09);
+  padding: 10px 0px;
+}
+.atternyReview_clone{
+  width:1280px;
+  /* height: 162px; */
+}
+.atternyInfo_clone{
+  width:1280px;
+  /* height: 311px; */
+}
+.bullets_typography{
+  font-size:16px;
+  font-weight:600;
+  color:#101828;
+  padding-left: 10px;
+  /* line-height: 26px; */
+}
+.attorny_info_points h4{
+  margin-bottom: 0  !important;
+}
+.attorny_info_points{
+  margin-top:50px;
+}
+.InfoCheck_settings{
+  padding:4px 0px;
+}
+
+/* -----------------WHy Choose US------------------------ */
+.WhyUs_main , .find_lawyers_main{
+  margin-top:50px;
+  padding:0px 60px;
+  width:1280px;
+  /* height: 602px; */
+}
+.content_block{
+  width: 589px;
+   gap:10px;
+}
+.whyUs_heading{
+  font-size: 42px;
+  font-weight: 600;
+  padding:24px  70px;
+  gap: 26px;
+}
+.chooseUs_heading{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+  color: #101828;
+}
+/* .whyUs_content_container{
+  padding:30px;
+} */
+.whyUs_content{
+  padding:26px 23px;
+  width: 544px;
+}
+.dotPattern_settings{
+  padding: 8px 8px 8px 0px;
+}
+.whyUs_child_data{
+  padding-left: 38px;
+  padding-top: 4px;
+  font-size:18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* -------------------------Find Lawyers Section-------------------- */
+.find_lawyer_heading{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56.19px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.search_by_location{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.73px;
+  text-align: left;
+  color: #101828;
+  padding-bottom: 10px;
+
+
+}
+.find_lawyers_main p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+   color: #101828;
+   text-align: center;
+}
+.link_btn{
+  cursor:pointer;
+}
+
+/* -------------------Blogs and Article Section ----------------- */
+.Blogs_main{
+  margin-top:50px;
+  padding:0px 0px 60px 60px;
+  width:1280px;
+  /* height: 602px; */
+}
+.blog_card{
+  background-color: white;
+  width: 643px;
+  border-radius: 50px;
+  padding: 30px;
+  box-shadow: 0px 4px 20px 0px #00000017;
+}
+.blog_card h2{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    color:#101828;
+}
+.blog_card p{
+font-size: 18px;
+font-weight: 400;
+line-height: 32.4px;
+text-align: left;
+color:#101828;
+padding:20px 0px
+}
+.blogs_drops_content{
+  padding-left:12px
+}
+.blogs_drops_content h5{
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+
+}
+.blogs_drops_content p{
+ padding:0px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+.blogs_drops_content img :hover{
+  color:#FF8500;
+}
+.read_more{
+      color: #FF8500;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+      text-align: center;
+      text-decoration: none;    
+}
+/* -------------Subsription Component start--------- */
+.subscription_main{
+  position: relative;
+}
+.subscription_box{
+  background-image: url('/assets/HomePage/rectangle.png');
+  height: 500px;
+}
+.subscrip_allignment{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  /* height: 100vh;   */
+}
+.subscription_box h3{
+font-size: 42px;
+font-weight: 600;
+line-height: 56.19px;
+/* text-align: center; */
+color:#101828;
+}
+.subscription_box p{
+font-size: 21px;
+font-weight: 400;
+line-height: 37.8px;
+text-align: left;
+color:#101828;
+padding-top: 10px;
+}
+.subscription_box img {
+  cursor:pointer;
+}
+.crime_banner{
+  position:absolute;
+  top:385px;
+}
+.youtube_heading{
+font-size: 42px;
+font-weight: 600;
+line-height: 54px;
+text-align: left;
+color: #101828;
+/* width: 465px; */
+padding: 150px 0px 0px 190px;
+}
+
+/* ---------------Footer---------------------------- */
+.set_foooter_m{
+  margin-top:10rem
+}
+.footer_box{
+  /* width: 1440px; */
+  top: 5118px;
+  gap: 0px;
+  opacity: 0px;
+  background: #007AFF0A;
+  margin-top: 150px;
+}
+.footer_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+}
+.footer_content ul {
+  display: flex; 
+  justify-content: center;
+  list-style-type: none;
+  margin:20px 0px;
+}
+
+.footer_content ul li {
+  /* display: inline; */
+  margin:0px 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: center;
+  cursor: pointer;
+  color: #2D3748;
+}
+.copyWrite_msg{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color: #718096;
+}
+.logo_styling{
+  justify-content: center;
+  margin: 0;
+}
