@@ -1,10 +1,11 @@
+'use client'; 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Fragment } from "react";
 import Image from "next/image";
 import gps from '../../../public/assets/HomePage/gps.png';
 import user from '../../../public/assets/HomePage/user.png';
 import manOnIndex from '../../../public/assets/HomePage/manOnSearch.png';
-
 import ServicesList from '../landing-page/landingPage-subComponents/ServicesList';
 import OurMoto from '../landing-page/landingPage-subComponents/OurMoto';
 import AtternyReviews from '../landing-page/landingPage-subComponents/AtternyReviews';
@@ -14,6 +15,10 @@ import Blogs from '../landing-page/landingPage-subComponents/Blogs';
 import Subscription from '../landing-page/landingPage-subComponents/Subscription';
 
 const HomePage: React.FC = () => {
+ const router =useRouter()
+  const handleSearchClick = () => {
+    router.push('/lawyerList');
+  }
   return (
     <Fragment>  
       <div className='searchEngine_main bg-white'>
@@ -35,7 +40,7 @@ const HomePage: React.FC = () => {
                             <Image src={user} alt="gps-Image"  className='user_settings'/>
                        </div>
                        <div className='search_btn_settings'>
-                            <button className='btn btn-primary btn_typography'> Search</button>
+                            <button className='btn btn-primary btn_typography' onClick={handleSearchClick}> Search</button>
                        </div>                       
                     </div>
                 </div>

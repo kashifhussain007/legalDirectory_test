@@ -523,3 +523,213 @@ color: #718096;
   justify-content: center;
   margin: 0;
 }
+
+/* ----------------------------Lawyers List Start ------------------------- */
+.lawyerList_span{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+  color:#007AFF;
+}
+.lawyerList_star{
+  color:#FFC107;
+  width: 18px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.info h2{
+font-size: 42px;
+font-weight: 600;
+line-height: 54px;
+text-align: left;
+color: #222222;
+
+
+}
+.info-p
+{
+font-size: 21px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+margin: 2px 0px;
+color:#101828;
+/* margin:3px 0px; */
+}
+.rotate_tag{
+  transform: rotate(80deg);
+}
+.lawyer_disc{
+font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: #101828;
+}
+.info_subHeading {
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color:#101828;
+opacity: 70%;
+}
+.info_subHeading span{
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color:#101828;
+opacity: 70%;
+}
+.consultant_btn{
+  /* width: Hug (204px)px;
+  height: Hug (43px)px; */
+  padding: 12px 18px 12px 18px !important;
+  gap: 10px !important;
+  border: none !important;
+  border-radius: 70px  !important;
+  opacity: 0px !important;
+  background-color:#52A304 !important;
+
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 19.36px !important;
+    text-align: left;
+
+
+
+}
+.emailsection a
+{
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+.button-container {
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin-top: 30px !important;
+}
+
+.free-cont
+{
+color: #007aff;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.36px;
+text-align: left;
+
+}
+.buttons-sec button {
+padding: 10px 20px;
+border: 1px solid #000;
+border-radius: 5px;
+background-color: white;
+color: black;
+font-size: 16px;
+display: flex;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons-sec .email-btn, .website-btn {
+border-color: #000;
+}
+
+.buttons-sec .phone-btn {
+/* width: 267px; */
+height:57px;
+padding: 16px 32px 16px 32px;
+gap: 12px;
+border-radius: 10px;
+opacity: 0px;
+background: #007AFF;
+margin-left: 20px ;
+color:white;
+border:none !important;
+text-align: center;
+justify-content: center;
+}
+/* .phoneIntalk{
+  color:#ffffff !important;
+} */
+
+.buttons-sec  button:hover {
+background-color: #e0e0e0;
+}
+
+.buttons-sec  .phone-btn:hover {
+background-color: #0056b3;
+}
+
+.buttons-sec .icon {
+font-size: 18px;
+}
+.saved
+{
+color: #007aff;
+}
+.details
+{
+  width: 267px;
+  height: 169px;
+  top: 1515px;
+  left: 1069px;
+  gap: 0px;
+  border-radius: 12px;
+  /* opacity:8%; */
+   margin-left: 20px ;
+   background:#EBF4FF;
+}
+.details h5{
+font-size: 21px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+color: #101828;
+padding:4px 0px;
+text-align: center;
+
+}
+.details p
+{
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 26px; */
+  text-align: left;
+  color: #101828;
+  padding-left: 12px;
+  /* text-align: center; */
+  /* padding:4px 0px; */
+
+  
+}
+.imgset
+{
+height: 350px;
+width: 100%;
+
+}
+.defesnse
+{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+  color:#101828; 
+}
+
+.img_holding_box{
+  width: 370px;
+  height: 376px;
+}
+.phoneIcon{
+  color:#ffff !important;
+}

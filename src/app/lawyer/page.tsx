@@ -6,7 +6,7 @@ const AdminPage = () => {
           Admin Dashboard
         </h1>
         <p className="mt-4 text-lg text-center text-gray-600">
-          This page is only accessible by users with the{" "}
+          This page is only accessible by users with the
           <strong>'Lawyer'</strong> role.
         </p>
 
