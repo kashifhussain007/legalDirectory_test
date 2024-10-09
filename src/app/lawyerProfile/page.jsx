@@ -644,7 +644,7 @@ const lawyerProfile = () =>{
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="mt-3 mx-2">
+                        <div className="mt-5 mx-2">
                             <h5>2. Professionalism</h5>
                             <div >
                                 <Box 
